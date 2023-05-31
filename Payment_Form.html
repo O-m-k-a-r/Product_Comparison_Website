@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Form</title>
+    <link rel="stylesheet" href="Style/style2.css"> 
+    <p> * Required Fields</p>
+</head>
+<body>
+    <div class="container">
+    <form action="">
+        <h1 class="Main_head"> Payment Form</h1>
+        <h2> Contact Information</h2>
+        <p> Name:* <input type="text" name="name" required placeholder="Enter your Name"></p>
+        <fieldset>
+            <legend>Gender</legend>
+            <p>
+                Male<input type="radio" name="Gender" id="Male"> Female<input type="radio" name="Gender" id="Female">
+
+            </p>
+        </fieldset>
+        <p> Address: <textarea name="add" id="add" cols="100" rows="8" placeholder="Enter your Address" > </textarea>"</p>
+        <p> Email*: <input type="email" name="email" id="email" required placeholder="abc@example.com"></p>
+        <p> Pincode:* <input type="number" name="pin" id="pin" required placeholder="123456"></p>
+        <hr>
+        <p>Scan below QR code for Payment</p>
+        <p> Amount:* <input type="number" name="pin" id="pin" required placeholder="Rs."></p>
+        <img src="paytm_img.jpeg" style="display: block;
+        margin-left: auto;
+        margin-right: auto;
+        " alt="Generating QR Code">
+    </form>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,217 @@
+header {
+    font-size: 40px;
+    color: white;
+    padding: 30px;
+    background-color: rgb(17, 128, 113);
+
+}
+
+.head_product
+{
+  font-size: 20px !important;
+  
+}
+.what_doyo{
+  margin-bottom: 30px !important;
+  font-size-adjust: 1px !important;
+  
+}
+
+.mycart
+{
+  float: right;
+  padding: 3px;
+}
+
+h2
+{
+    padding: 0px;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: -webkit-sticky; 
+    position: sticky;
+    top: 0;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #4CAF50;
+  }
+
+  .signup_r{
+      float: right;
+  }
+
+  @import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+
+
+.search {
+  width: 50%;
+  position: relative;
+  display: flex;
+}
+
+.searchTerm {
+  width: 100%;
+  border: 3px solid #00B4CC;
+  border-right: none;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9DBFAF;
+}
+
+.searchTerm:focus{
+  color: #00B4CC;
+}
+
+.searchButton {
+  width: 60px;
+  height: 36px;
+  border: 1px solid #00B4CC;
+  background: #00B4CC;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+
+
+.container
+        {
+            display: flex;
+            height: 450px;
+            overflow-x:scroll;
+            overflow-y: hidden;
+            position: static;
+            padding-bottom: 25px;
+        }
+        .product_image
+        {
+           
+            align-self: center;
+            padding: 20px;
+
+        }
+        .product_text
+        {
+            padding: 20px;
+            color: black;
+            text-decoration: underline;
+            text-decoration-color: #f8f0c6;;
+        }
+        .product_text
+        {
+            text-align:center;
+            margin-top: 0px;
+            padding: 10px;
+        }
+        ._prate {
+        color: hsl(150, 25%, 98%);
+        font-size: 25px;
+        font-weight: 500;
+        line-height: normal;
+        margin:5px,30px;
+        position: static;
+        align-items: center;
+        justify-content: normal;
+        }
+        .box
+        {
+            background: #f8f0c6;
+            border-style:groove;
+            border-width:thin;
+            margin-left: 20px;
+            margin-right: 20px;
+            padding-bottom: 25px;
+            box-shadow:10px 10px 10px rgb(175, 170, 170);
+        }
+        .button
+        {
+            background-color: #f44336;
+            color: white;
+            padding: 14px 25px;
+            text-align: left;
+            display: inline-block;
+            margin-right:25px;
+            margin-left: 50px;
+            text-decoration: none;
+        }
+        .good
+        {
+            background-color: #388e3c;
+            font-size:20px;
+            padding: 10px;
+            margin-left: 20px;
+            text-decoration: none;
+            text-decoration:underline;
+            text-decoration-color: #388e3c;
+        }
+        .bad
+        {
+            color:black;
+            text-size-adjust: 15px;
+            font-size: medium;
+            text-decoration: underline;
+            text-decoration-color:#f8f0c6;
+            margin-left: 10px;
+        }
+        .price_discount_buy
+        {
+            color: black;
+            margin-left: 25px;
+            text-decoration: none;
+        }
+
+        .footer{
+
+            position: static;
+            border: #111;
+            padding: 10px;
+            overflow-y: hidden;
+            width: 100%;
+            background-color: #111;
+            color: white;
+            text-align: center;
+        }
+
+        .product_image
+                {
+                    object-fit: contain;
+                }
+
+                .searcht
+                {
+                  padding: 80px;
+                }
